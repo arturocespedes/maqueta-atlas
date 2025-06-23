@@ -56,7 +56,7 @@ if (volver) {
 const fichas = {
   'punto-jilguero': {
     titulo: "Jilguero (Spinus barbatus)",
-    img: "img/jilguero2.PNG",
+    img: "img/Jilguero2.PNG",
     texto: `
       <strong>Largo:</strong> 13–14 cm<br>
       <strong>Hábitat:</strong> Zonas verdes densas como árboles y matorrales.<br>

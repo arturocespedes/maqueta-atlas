@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maqueta Atlas</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  
+</head>
+<body class="noche">
+  <nav id="navbar">
+  <div class="nav-left">
+  <a href="index.html">LOGO</a>
+</div>
+  <div class="nav-right">
+    <a href="#">Sobre el proyecto</a>
+    <a href="#">Equipo</a>
+    <a href="#">Colabora al atlas</a>
+    <a href="#">Galería de recursos</a>
+  </div>
+</nav>
+  <div class="contenedor">
+    <button id="volverBtn" class="boton-volver" data-volver="puertopresente.html">← Volver</button>
+    <div class="mapa-wrapper">
+      <img src="img/DibujoAereofinal.PNG" class="imagen-mapa" alt="Mapa" />
+      <div class="overlay-puntos">
+  <div class="punto" id="punto-jilguero" style="left: 24.5%; top: 32%;">
+    <span class="tooltip-text">Jilguero</span>
+  </div>
+  <div class="punto" id="punto-jote" style="left: 48.8%; top: 38%;">
+    <span class="tooltip-text">Jote de cabeza negra</span>
+  </div>
+  <div class="punto" id="punto-bosques" style="left: 53.7%; top: 75%;">
+    <span class="tooltip-text">Bosques de evapotranspiración</span>
+  </div>
+  <div class="punto" id="punto-luminaria" style="left: 36.7%; top: 45%;">
+    <span class="tooltip-text">Luminaria</span>
+  </div>
+  <div class="punto" id="punto-cables" style="left: 82%; top: 45%;">
+    <span class="tooltip-text">Cables eléctricos</span>
+  </div>
+  <div class="punto" id="punto-diuca" style="left: 71%; top: 29%;">
+    <span class="tooltip-text">Diuca</span>
+  </div>
+</div>
+    </div>
+  </div>
+  <div id="fondo-oscuro" class="oculto"></div>
+<div id="popup" class="popup oculto">
+  <div class="popup-content-nuevo">
+    <button id="cerrarPopup">×</button>
+
+    <div class="popup-columna-izquierda">
+      <p class="popup-afectacion" id="popup-afectacion"></p>
+      <h2 class="popup-nombre" id="popup-nombre"></h2>
+      <p class="popup-subtitulo" id="popup-subtitulo"></p>
+      <p class="popup-detalle" id="popup-detalle"></p>
+      <p class="popup-impacto" id="popup-impacto"></p>
+      <p class="popup-descripcion" id="popup-descripcion"></p>
+      <p class="popup-fuente" id="popup-fuente"></p>
+    </div>
+
+    <div class="popup-columna-derecha">
+      <img id="popup-img" src="" alt="" />
+    </div>
+  </div>
+</div>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>

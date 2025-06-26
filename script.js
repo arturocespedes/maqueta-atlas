@@ -56,7 +56,7 @@ if (volver) {
 const fichas = {
   'punto-jilguero': {
     titulo: "Jilguero (Spinus barbatus)",
-    img: "img/Jilguero2.PNG",
+    img: "img/JilgueroPintado.PNG",
     texto: `
       <strong>Largo:</strong> 13–14 cm<br>
       <strong>Hábitat:</strong> Zonas verdes densas como árboles y matorrales.<br>
@@ -69,7 +69,7 @@ const fichas = {
   },
   'punto-jote': {
     titulo: " Jote de cabeza negra (Coragyps atratus)",
-    img: "img/Jote2.PNG",
+    img: "img/Jote3.PNG",
     texto: `
       <strong>Largo:</strong>56 - 74 cm<br>
       <strong>Hábitat:</strong> Presente en valles y zonas costeras, no suele subir a zonas con alturas como territorios cordilleranos.<br>
@@ -121,7 +121,7 @@ const fichas = {
   },
   'punto-diuca': {
     titulo: "Diuca",
-    img: "img/Diuca2.PNG",
+    img: "img/DiucaPintada.PNG",
     texto: `
       <strong>Largo:</strong> 17–18 cm cm<br>
       <strong>Hábitat:</strong> Zonas verdes abiertas, como campo y bordes de bosques<br>
